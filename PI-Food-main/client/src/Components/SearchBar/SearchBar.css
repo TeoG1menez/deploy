@@ -1,0 +1,14 @@
+.ElInput{
+   width: 280px;
+   height:35px;
+   border-style: solid;
+   border-radius: 50px;
+   border-color: #FFFFF0;
+   background-color: #16A085;
+   padding-left: 25px;
+   font-size: 20px; 
+   font-family: sans-serif;
+   color: #FFFFF0;
+}
+
+

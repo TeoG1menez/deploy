@@ -1,0 +1,41 @@
+.Receta{
+    text-decoration: none;
+    position: relative;
+    color: #16A085;
+    border:#16A085;
+    border-width: 2.5px;
+    border-style: solid;
+    border-radius: 0px;
+    width: 230px;
+    height: 350px;
+    margin: 10px;
+    margin-left: auto;
+    margin-right:auto;
+    background-color: #fffff0;
+    max-width: 312px;
+    min-width: 280px;
+    transition: 0.3s;  
+}
+.Receta:hover{
+    text-decoration: none;
+    transform: scale(1.1);
+}
+ p{
+    text-decoration: none;
+    padding-left: 10px;
+    font-family: sans-serif;
+}
+.Receta img{
+    width: 100%;
+    border-radius: 0px;
+}
+
+
+.Receta .vegetarian {
+    font-size: 50px ;
+}
+.linnk{
+    text-decoration: none;
+    font-size: 20px;
+    color: #16A085;
+}

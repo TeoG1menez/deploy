@@ -1,0 +1,37 @@
+.order p{
+    font-size: 20px; 
+    font-family: sans-serif;
+    color: #FFFFF0 
+}
+.avgbutton{
+   margin-right: 20px;
+   padding-left: 10px;
+   padding-right: 10px;
+   height:35px;
+   border-style: solid;
+   border-radius: 50px;
+   border-color: #FFFFF0;
+   background-color: #16A085;
+   font-size: 20px; 
+   font-family: sans-serif;
+   color: #FFFFF0;
+}
+.avgbutton:hover{
+    cursor: pointer;
+}
+.avgbutton2{
+    /* margin-left: 10px; */
+    padding-left: 10px;
+    padding-right: 10px;
+    height:35px;
+    border-style: solid;
+    border-radius: 50px;
+    border-color: #FFFFF0;
+    background-color: #16A085;
+    font-size: 20px; 
+    font-family: sans-serif;
+    color: #FFFFF0;
+ }
+ .avgbutton2:hover{
+    cursor: pointer;
+ }

@@ -1,0 +1,15 @@
+body{
+    background: #FFFFF0;
+    height: 100vh;
+}
+.Cartas {
+    display: flex;
+    width: 100%;  
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content:center  
+}
+
+
+
+

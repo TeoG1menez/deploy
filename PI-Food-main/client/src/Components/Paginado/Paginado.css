@@ -1,0 +1,26 @@
+.Paginado {
+    width: 100vw;
+    
+    display: flex;
+    margin-left: 30vw;
+    margin-right: 20vw;
+}
+
+.button {
+    width: 34px;
+    font-size: 20px;
+    color: #16A085;
+    border: #16A085;
+    border-radius: 25px;
+    border-width: 2px;
+    border-style: solid;
+    background-color: #FFFFF0;
+    margin-right: 2vw;
+    cursor: pointer;
+    transition: 0.3s;
+}
+.button:focus{
+    color: #FFFFF0;
+    border: #FFFFF0;
+    background-color: #16A085;
+}

@@ -1,0 +1,59 @@
+
+
+.header{
+    background-color: #16A085;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    height: 100px;
+    padding: 5px 10%;
+}
+
+.header .logo{
+    cursor: pointer;
+    background-image: url('./Img/icons8-home-page-100.png');
+    height: 100px;
+    width: 100px;
+}
+.BotoncitoHome{
+    width: 100px;
+    height: 100px;
+}
+
+
+
+.header .nav-links{
+    list-style: none;
+}
+
+.header .nav-links li{
+    display: inline-block;
+    padding: 0 20px;    
+}
+
+
+
+
+
+.header .btn button{
+    font-family: serif;
+    font-size: 20px;
+    color: #FFFFF0;
+    padding: 9px 25px;
+    background: #16A085;
+    border: #FFFFF0;
+    border-style: solid;
+    border-radius: 50px;
+    cursor: pointer;
+    transition: all 0.3s ease 0s;
+}
+
+.header .btn button:hover{
+    background-color:#FFFFF0;
+    color: #16A085;
+    transform: scale(1.1);
+}
+.header .btn{
+    font-family: serif;
+    font-size: 20px;
+}
