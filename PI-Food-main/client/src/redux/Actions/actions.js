@@ -4,7 +4,7 @@ import {SET_RECIPE,POST_RECIPE, RECIPE_SEARCH,CHANGE_ORDER, GET_RECIPES, GET_REC
 
 export const getAllRecipes = (name) => {
     return function(dispatch){
-        return fetch('http://localhost:3001/recipes?name='+name)
+        return fetch('https://deploy-production-2532.up.railway.app/recipes?name='+name)
         .then((response)=> response.json())
         .then((data)=> dispatch({type: GET_RECIPES, payload: data}))
     }
@@ -12,7 +12,7 @@ export const getAllRecipes = (name) => {
 
 export const getRecipeDetail = (id) => {
     return function(dispatch){
-        fetch(`http://localhost:3001/recipes/${id}`)
+        fetch(`https://deploy-production-2532.up.railway.app/recipes/${id}`)
         .then((response)=> response.json())
         .then((data)=> dispatch({type: GET_RECIPE_DETAIL_BY_ID, payload: data}))
     }
@@ -26,7 +26,7 @@ export const ActualizaFiltros=(payload)=> {
 }
 export const getDiet = () => {
     return function(dispatch){
-        fetch('http://localhost:3001/diets')
+        fetch('https://deploy-production-2532.up.railway.app/diets')
         .then((response)=>response.json())
         .then((data)=> dispatch({type: GET_DIETS, payload: data}))
     }
