@@ -24,7 +24,7 @@ const Home = () => {
   const indexFirstRecipe = indexLastRecipe - itemsPerPage
   const RecetaActual = recipes2.length ? recipes2.slice(indexFirstRecipe, indexLastRecipe) : []
   // const Page = (pageNumber) => {setCurrentPage(pageNumber)}
-   console.log(Recetas)
+   
   
   if (recipeOrder.order) {
     let aux = 1 
