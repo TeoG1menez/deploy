@@ -6,7 +6,7 @@ const router = Router();
 
 
 const InfoApi = async() => {
-    const UrlApi = await axios.get(`https://api.spoonacular.com/recipes/complexSearch?apiKey=${API_KEY}`, { 
+    const UrlApi = await axios.get(`https://run.mocky.io/v3/84b3f19c-7642-4552-b69c-c53742badee5`, { 
         headers: { "Accept-Encoding": "gzip,deflate,compress" }});
     //https://run.mocky.io/v3/84b3f19c-7642-4552-b69c-c53742badee5 https://api.spoonacular.com/recipes/complexSearch?apiKey=${API_KEY}&addRecipeInformation=true
     //https://api.spoonacular.com/recipes/complexSearch?apiKey=${API_KEY}
