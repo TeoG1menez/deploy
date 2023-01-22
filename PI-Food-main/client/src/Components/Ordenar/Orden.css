@@ -1,6 +1,5 @@
 .order p{
-    font-size: 20px; 
-    font-family: sans-serif;
+    font-size: 20px;  
     color: #FFFFF0 
 }
 .avgbutton{
@@ -13,7 +12,6 @@
    border-color: #FFFFF0;
    background-color: #16A085;
    font-size: 20px; 
-   font-family: sans-serif;
    color: #FFFFF0;
 }
 .avgbutton:hover{

@@ -23,7 +23,7 @@
  p{
     text-decoration: none;
     padding-left: 10px;
-    font-family: sans-serif;
+    /* font-family: sans-serif; */
 }
 .Receta img{
     width: 100%;

@@ -36,7 +36,7 @@
 
 
 .header .btn button{
-    font-family: serif;
+    
     font-size: 20px;
     color: #FFFFF0;
     padding: 9px 25px;
@@ -54,6 +54,6 @@
     transform: scale(1.1);
 }
 .header .btn{
-    font-family: serif;
+    
     font-size: 20px;
 }
