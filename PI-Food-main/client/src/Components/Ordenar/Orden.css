@@ -17,8 +17,7 @@
 .avgbutton:hover{
     cursor: pointer;
 }
-.avgbutton2{
-    /* margin-left: 10px; */
+.avgbutton2{ 
     padding-left: 10px;
     padding-right: 10px;
     height:35px;
@@ -27,7 +26,6 @@
     border-color: #FFFFF0;
     background-color: #16A085;
     font-size: 20px; 
-    font-family: sans-serif;
     color: #FFFFF0;
  }
  .avgbutton2:hover{
