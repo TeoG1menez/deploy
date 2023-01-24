@@ -1,6 +1,7 @@
 body{
     background: #FFFFF0;
     height: 100vh;
+    overflow: visible;
     /* max-width: 100vw; */
 }
 .Cartas {
@@ -10,7 +11,7 @@ body{
     flex-direction: row;
     flex-wrap: wrap;
     justify-content:center;
-    overflow: hidden;
+    
     
 }
 
