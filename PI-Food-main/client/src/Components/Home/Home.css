@@ -10,7 +10,7 @@ body{
     flex-direction: row;
     flex-wrap: wrap;
     justify-content:center;
-    overflow: visible;
+    overflow: hidden;
     
 }
 
