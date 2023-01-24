@@ -1,8 +1,8 @@
-body{
+/* body{
     background: #FFFFF0;
     height: 100vh;
-    /* max-width: 100vw; */
-}
+     max-width: 100vw; 
+} */
 .Cartas {
     max-width: 100vw;
     display: flex;  
