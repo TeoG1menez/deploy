@@ -14,10 +14,10 @@ const Landing = () => {
     <div className='Landing'>
 
         <div className='Textos'>
-          <div className='Titulo'>  WELCOME CHEF
-              <div className='Subtitulo'>Here you will find the best recipes
+          <div className='Titulo'>  WELCOME PLAYER
+              <div className='Subtitulo'>Here you will find the best VideoGames
                <div>
-                  <a href='/Home' class='Boton'>SEE RECIPES</a>
+                  <a href='/Home' class='Boton'>SEE GAMES</a>
                </div>
                    
              </div>
